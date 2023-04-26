@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   // const HomePage({super.key});
-  int days=30;
+  var days=30;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Home Page"),
+        title: const Text("Home Page is this"),
       ),
       drawer: const Drawer(),
       body: Center(
@@ -15,6 +15,7 @@ class HomePage extends StatelessWidget {
           child: Text("welcome to $days App "),
         ),
       ),
+      // footer:Footer()
     );
   }
 }
