@@ -11,9 +11,7 @@ class HomePage extends StatelessWidget {
       ),
       drawer: const Drawer(),
       body: Center(
-        child: Container(
-          child: Text("welcome to $days App "),
-        ),
+        child: Text("welcome to $days App "),
       ),
       // footer:Footer()
     );
